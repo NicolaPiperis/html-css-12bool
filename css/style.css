@@ -1,5 +1,27 @@
-[class*="col"] {
-    background-color: blue;
+
+.text-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.blue{
+    background-color: rgb(2, 109, 231);
     border: 1px white solid;
     height: 100px;
+}
+
+.green{
+    background-color: chartreuse;
+    height: 80px;
+    border: 1px solid rgb(2, 109, 231);
+}
+
+.nested{
+    padding: 10px 10px;
+}
+
+section{
+    margin-bottom: 50px;
 }
