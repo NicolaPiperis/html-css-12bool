@@ -32,3 +32,81 @@
 section{
     margin-bottom: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DRAW BONUS */
+
+.yellow{
+    background-color: #ffeb3b;
+    height: 60px;
+}
+
+.sky{
+    background-color: #4fc3f7;
+    height: 60px;
+}
+
+.beak{
+    background-color: #ffc107;
+    height: 60px;
+}
+
+.sea{
+    background-color: #2196f3;
+    height: 60px;
+}
+
+.white{
+    background-color: white;
+    height: 60px;
+}
+
+.black{
+    background-color: black;
+    height: 60px;
+}
+
+.yellow , .sky , .black , .white {
+    transition: all ease 1.5s;
+}
+
+.container-draw{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.draw{
+    width:720px ;
+    height: 720px;
+}
+
+.draw:hover .yellow{
+    background-color: black;
+}
+
+.draw:hover .black{
+    background-color: yellow;
+}
+
+.draw:hover .sky{
+    background-color: rgb(13, 13, 61);
+}
+
+.draw:hover .white{
+    background-color: grey;
+}
