@@ -127,3 +127,53 @@
 .col-offset-12{
     margin-left: calc((100% / 12) * 12);
 }
+
+
+
+
+
+/* BONUS */
+
+.start-col {
+    justify-content: flex-start;
+    text-align: start;
+}
+
+.center-col{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.end-col{
+    justify-content: flex-end;
+    text-align: end;
+}
+
+.top-col{
+    align-items: flex-start;
+}
+
+.middle-col {
+    align-items: center;
+}
+
+.bottom-col {
+    align-items: end;
+}
+
+.around-col{
+    justify-content: space-around;
+}
+
+.between-col{
+    justify-content: space-between;
+}
+
+.first-col{
+    order: -1;
+}
+
+.last-col{
+    order: 1;
+}

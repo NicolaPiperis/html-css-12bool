@@ -4,12 +4,19 @@
     justify-content: center;
     align-items: center;
     color: white;
+    height: 100%;
 }
 
 .blue{
     background-color: rgb(2, 109, 231);
     border: 1px white solid;
     height: 100px;
+}
+
+.bigblue{
+    background-color: rgb(2, 109, 231);
+    border: 1px white solid;
+    height: 200px;
 }
 
 .green{
