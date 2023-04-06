@@ -135,17 +135,19 @@
 /* BONUS */
 
 .start-col {
+    
     justify-content: flex-start;
     text-align: start;
 }
 
 .center-col{
-    display: flex;
+    
     justify-content: center;
     text-align: center;
 }
 
 .end-col{
+    
     justify-content: flex-end;
     text-align: end;
 }
@@ -163,10 +165,12 @@
 }
 
 .around-col{
+    
     justify-content: space-around;
 }
 
 .between-col{
+    
     justify-content: space-between;
 }
 
